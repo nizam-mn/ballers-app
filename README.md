@@ -20,8 +20,8 @@ Before setting up the project, ensure you have the following installed:
 
 ### 1. Clone the repository
 ```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/nizam-mn/ballers-app.git
+cd ballers-app
 ```
 
 ### 2. Install dependencies
@@ -63,18 +63,18 @@ Each product includes:
 - `tags` etc..
 
 ## Project Structure
-```
+```bash
 .
 ├── components
-│   ├── Card.js        # Product card component
+│   ├── Card.js          # Product card component
 ├── screens
-│   ├── HomeScreen.js  # Main screen with product listing & search
-│   ├── DetailScreen.js  # Screen with product Details
-│   ├── HomeScreen.js  # Screen for login
-├── App.js            # Entry point
-├── package.json      # Dependencies and scripts
+│   ├── HomeScreen.js    # Main screen with product listing & search
+│   ├── DetailScreen.js  # Screen with product details
+│   ├── LoginScreen.js   # Screen for login
+├── App.js              # Entry point
+├── package.json        # Dependencies and scripts
 
-```
+
 
 ## Troubleshooting
 If you encounter issues:
